@@ -26,6 +26,84 @@ const store = createStore({
           active: true,
         },
       ],
+      machines: [
+        {
+          id: "la-marzocco",
+          heading: "La Marzocco",
+          text: "A legendary brand in the industry",
+          active: false,
+        },
+        {
+          id: "breville",
+          heading: "Breville",
+          text: "Breville is no stranger to the coffee world.",
+          active: false,
+        },
+        {
+          id: "rancilio",
+          heading: "Rancilio",
+          text: "You can't go wrong with a good ol' Rancilio machine.",
+          active: false,
+        },
+        {
+          id: "specht",
+          heading: "Specht",
+          text:
+            "Specht is for the coffee fanatics. From custom colours to handmade wooden finishes, these machines are nothing short of luxurious.",
+          active: false,
+        },
+      ],
+      manualBrews: [
+        {
+          id: "aeropress",
+          heading: "Aeropress",
+          text: "Some more Aeropress info.",
+          active: false,
+        },
+        {
+          id: "brew-time",
+          heading: "Brew time",
+          text: "Info on brew time and all that goodness.",
+          active: false,
+        },
+        {
+          id: "grind-size",
+          heading: "Grind size",
+          text: "Grind size can make or break your cup.",
+          active: false,
+        },
+        {
+          id: "water-temp",
+          heading: "Water temperature",
+          text: "Info on how much you should heat your water",
+          active: false,
+        },
+        {
+          id: "method",
+          heading: "Method",
+          text:
+            "To mix or not to mix is the question and even then, swirl or stir?",
+          active: false,
+        },
+        {
+          id: "v60",
+          heading: "V60",
+          text: "Some V60 info.",
+          active: false,
+        },
+        {
+          id: "chemex",
+          heading: "Chemex",
+          text: "Some Chemex info.",
+          active: false,
+        },
+        {
+          id: "french-press",
+          heading: "French Press",
+          text: "Some French Press info.",
+          active: false,
+        },
+      ],
       searchArray: [""],
       search: "",
     };
