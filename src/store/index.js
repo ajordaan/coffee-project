@@ -4,6 +4,7 @@ const store = createStore({
   state() {
     return {
       beans: {
+        id: "beans",
         intro: "This is a page about coffee beans.",
         details: [
           {
@@ -30,87 +31,89 @@ const store = createStore({
         ],
       },
       machines: {
+        id: "machines",
         intro: "This is a page about coffee machines.",
         details: [
           {
             id: "la-marzocco",
             heading: "La Marzocco",
             text: "A legendary brand in the industry",
-            active: false,
+            active: true,
           },
           {
             id: "breville",
             heading: "Breville",
             text: "Breville is no stranger to the coffee world.",
-            active: false,
+            active: true,
           },
           {
             id: "rancilio",
             heading: "Rancilio",
             text: "You can't go wrong with a good ol' Rancilio machine.",
-            active: false,
+            active: true,
           },
           {
             id: "specht",
             heading: "Specht",
             text:
               "Specht is for the coffee fanatics. From custom colours to handmade wooden finishes, these machines are nothing short of luxurious.",
-            active: false,
+            active: true,
           },
         ],
       },
 
       manualBrews: {
+        id: "manual-brews",
         intro: "This is a page about manual coffee brewing methods.",
         details: [
           {
             id: "aeropress",
             heading: "Aeropress",
             text: "Some more Aeropress info.",
-            active: false,
+            active: true,
           },
           {
             id: "brew-time",
             heading: "Brew time",
             text: "Info on brew time and all that goodness.",
-            active: false,
+            active: true,
           },
           {
             id: "grind-size",
             heading: "Grind size",
             text: "Grind size can make or break your cup.",
-            active: false,
+            active: true,
           },
           {
             id: "water-temp",
             heading: "Water temperature",
             text: "Info on how much you should heat your water",
-            active: false,
+            active: true,
           },
           {
             id: "method",
             heading: "Method",
             text:
               "To mix or not to mix is the question and even then, swirl or stir?",
-            active: false,
+            active: true,
           },
           {
             id: "v60",
             heading: "V60",
             text: "Some V60 info.",
-            active: false,
+            active: true,
           },
           {
             id: "chemex",
             heading: "Chemex",
             text: "Some Chemex info.",
-            active: false,
+            active: true,
           },
           {
             id: "french-press",
             heading: "French Press",
             text: "Some French Press info.",
-            active: false,
+            active: true,
           },
         ],
       },
