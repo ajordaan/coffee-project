@@ -47,7 +47,7 @@ export default {
     };
 
     const navigationInfo = computed(() =>
-      store.state[context].details.map((c) => {
+      info.value.details.map((c) => {
         return { id: c.id, heading: c.heading };
       })
     );
