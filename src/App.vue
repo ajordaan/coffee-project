@@ -6,9 +6,9 @@
     <Header title="The Coffee Project 3.0" />
     <div id="topnav">
       <router-link to="/">Home</router-link>
-      <router-link to="/manual-brews">Manual Brews</router-link>
-      <router-link to="/machines">Machines</router-link>
-      <router-link to="/beans">Beans</router-link>
+      <router-link to="/info/manualBrews">Manual Brews</router-link>
+      <router-link to="/info/machines">Machines</router-link>
+      <router-link to="/info/beans">Beans</router-link>
     </div>
     <router-view />
   </div>
